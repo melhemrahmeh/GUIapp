@@ -2,8 +2,8 @@ create schema laboratory;
 
 create table LAB (  
 	lno INT NOT NULL primary key,  
-    lname VARCHAR(20) NOT NULL,  
-    llocation VARCHAR(20) NOT NULL 
+    	lname VARCHAR(20) NOT NULL,  
+    	llocation VARCHAR(20) NOT NULL 
 );
 
 insert into LAB (lno , lname , llocation) 
